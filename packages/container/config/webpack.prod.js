@@ -3,7 +3,7 @@ const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPl
 const commonConfig = require('./webpack.common');
 const packageJson = require('../package.json');
 
-const domain = "http://dev-cdn.nimbus-nonprod.com";
+const domain = "https://daqlyxlzdz21v.cloudfront.net";
 
 const prodConfig = {
   mode: 'production',

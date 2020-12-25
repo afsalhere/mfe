@@ -15,7 +15,6 @@ const prodConfig = {
       filename: 'remoteEntry.js',
       exposes: {
         './MarketingApp': './src/bootstrap',
-        './VueHome': './'
       },
       shared: packageJson.dependencies,
     }),
